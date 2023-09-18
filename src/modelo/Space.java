@@ -15,7 +15,7 @@ public class Space extends JFrame {
     public Space() {
         // Crear una instancia de la clase Star con una imagen y posición
         
-        Image image = Toolkit.getDefaultToolkit().getImage("src\\Starr.jpeg");
+        Image image = Toolkit.getDefaultToolkit().getImage("C:\\Users\\danie\\Documents\\javaProjects\\estrella_patron_de_diseño\\src\\modelo\\Starr.jpeg");
         Point position = new Point(400, 400);
         star = new Star(image, position);
         
